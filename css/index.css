@@ -86,11 +86,18 @@ i{
 
 input[type="submit"]{
 	padding:10px 30px;
+	border:none;
+	background-color: transparent;
 }
+
+/*
+	Welcome Section
+*/
 
 .index-page-welcome-section{
 	display: flex;
 	justify-content: center;
+	margin:100px;
 }
 .welcome-sub-cards{
 	display: flex;
@@ -108,7 +115,7 @@ input[type="submit"]{
 	text-align: right;
 }
 .welcome-sub-card:hover{
-	background-color:#333; 
+	background-color:#222; 
 }
 .welcome-sub-card h1{
 	display: inline-block;
@@ -144,3 +151,49 @@ input[type="submit"]{
 #welcome-read-more{
 	width: 100px;
 }
+
+/*
+	Community Section
+*/
+
+.index-page-community-section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color:#fff;
+	margin:100px;
+}
+.index-page-community-section .community-title{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	align-items: center;
+	font-size: 2rem;
+	margin:30px;
+}
+.index-page-community-section .community-title:after{
+	content:'';
+	position: absolute;
+	width:100px;
+	height:3px;
+	background-color: #fcf0d7;
+	bottom:-15px;
+}
+.community-browsering-thumbnails{
+	display: flex;
+	justify-content: center;
+	margin:50px;
+}
+
+.thumbnail{
+	margin:10px;
+
+}
+
+.thumbnail img{
+	width:400px;
+	height:auto;
+	box-shadow: 3px 3px 3px #333;
+	border-radius: 5px;
+}
+
