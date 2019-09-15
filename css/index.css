@@ -156,7 +156,7 @@ input[type="submit"]{
 	Community Section
 */
 
-.index-page-community-section{
+.index-page-community-section,.index-page-listing-section{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -188,14 +188,21 @@ input[type="submit"]{
 .thumbnail{
 	margin:10px;
 	position: relative;
+	box-shadow: 3px 3px 3px #333;
+	border-radius: 5px;
+	background-color: #000;
 
 }
 
 .thumbnail img{
-	width:400px;
+	width:100%;
 	height:auto;
-	box-shadow: 3px 3px 3px #333;
-	border-radius: 5px;
+/*	box-shadow: 3px 3px 3px #333;
+	border-radius: 5px;*/
+}
+.inner-descrip{
+	width:400px;
+	padding:30px;
 }
 
 .thumbnail-cover{
@@ -218,4 +225,10 @@ input[type="submit"]{
 	background-color: transparent;
 	color:#f5b942;
 }
+
+
+/*
+	Listing Section
+*/
+
 
