@@ -163,7 +163,7 @@ input[type="submit"]{
 	color:#fff;
 	margin:100px;
 }
-.index-page-community-section .community-title{
+.community-title{
 	display: flex;
 	flex-direction: column;
 	position: relative;
@@ -296,6 +296,7 @@ input[type="submit"]{
 .index-page-contact-section{
 	display: flex;
 	background-color: #111;
+	padding-bottom: 100px;
 }
 .contact-subsection{
 	width:400px;
