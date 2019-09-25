@@ -68,8 +68,7 @@ i{
 
 .index-page-searchbar-title{
 	display: inline-block;
-	background-color: #fff;
-	opacity:0.8;
+	color:#fff;
 	height:150px;
 	text-align: center;
 	font-size: 2rem;
@@ -79,7 +78,7 @@ i{
 }
 
 .search-bar{
-	background-color: #fcf0d7;
+	background-color:rgba(255,255,255,0.8);
 	padding:30px 50px;
 	border-radius: 2px;
 }

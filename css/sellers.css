@@ -1,0 +1,48 @@
+/*
+	Sellers Page
+*/
+
+.sellers-page-searchbar{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height:500px;
+	width:100%;
+	background-image: url('../img/sellers-title.jpg');
+	background-size:cover;
+}
+
+.sellers-page-searchbar-title{
+	display: inline-block;
+	color:#fff;
+	width:70%;
+	height:100%;
+	text-align: center;
+	font-size: 2rem;
+	padding:30px;
+	padding-bottom: 10px;
+	margin:30px;
+	font-family: 'Big Shoulders Display', cursive;
+	letter-spacing: 1px;
+}
+
+.sellers-title-btn{
+	padding:10px 20px;
+	font-size: 2rem;
+	margin-top: 50px;
+	border:none;
+	color:#000;
+	background-color: #fcf0d7;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #000;
+	transition: .3s;
+	cursor: pointer;
+}
+.sellers-title-btn:hover{
+	background-color: #222;
+	color:#fcf0d7;
+}
+
+.sellers-title-btn:focus{
+	outline: none;
+}
