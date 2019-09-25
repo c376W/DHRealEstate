@@ -13,8 +13,7 @@
 
 .search-page-searchbar-title{
 	display: inline-block;
-	background-color: #fff;
-	opacity:0.8;
+	color:#fff;
 	height:150px;
 	text-align: center;
 	font-size: 2rem;
