@@ -40,15 +40,22 @@ body{
 	font-weight: bold;
 	font-size: 1.3rem;
 	margin-top: 20px;
+
 }
 .about-page-team{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-bottom: 100px;
+	margin-bottom: 200px;
 }
 .agent-title{
 	margin:20px;
+	margin-top: 200px;
+	margin-bottom: 100px;
+	font-family: 'Saira Stencil One', cursive;
+	font-size: 2rem;
+	background-color: #fcf0d7;
+	border-radius: 50%;
 }
 .agents-cards{
 	display: flex;
@@ -77,4 +84,44 @@ body{
 
 .card-social i{
 	font-size: 1rem;
+}
+
+/*
+	About page main content
+*/
+
+.about-page-main-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fcf0d7;
+}
+.about-content{
+	width:800px;
+	margin-bottom: 200px;
+}
+
+/*Contact*/
+.contact-descrip{
+	margin-top: -50px;
+	margin-bottom: 50px;
+}
+.contact-main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.social-btns{
+	margin-bottom: 100px;
+
+}
+
+.social-btns i{
+	font-size: 3rem;
+	color: #f5b342;
+	transition: .3s;
+	cursor: pointer;
+}
+.social-btns i:hover{
+	color:#000;
 }

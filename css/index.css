@@ -235,7 +235,7 @@ input[type="submit"]{
 */
 .index-page-question-section{
 	position: relative;
-	margin:-10px;
+	margin-bottom: -10px;
 }
 .question-el-1,.question-el-2,.question-contact{
 	position: absolute;
