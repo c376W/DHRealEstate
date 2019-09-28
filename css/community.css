@@ -2,3 +2,21 @@
 	width:600px;
 	text-align: center;
 }
+.community-title{
+	text-align: center;
+}
+
+@media(max-width: 650px){
+	.community-page-text{
+		width:400px;
+	}
+}
+
+@media(max-width: 400px){
+	.community-page-text{
+		width:250px;
+	}
+	.community-title-font{
+		font-size: 1.3rem;
+	}
+}

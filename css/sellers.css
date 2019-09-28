@@ -46,3 +46,18 @@
 .sellers-title-btn:focus{
 	outline: none;
 }
+
+@media(max-width: 800px){
+	.sellers-page-searchbar-title{
+		font-size: 1.2rem;
+	}
+	.buyers-crop1{
+		display: none;
+	}
+	.buyers-title-big-font{
+		font-size: 1.5rem;
+	}
+	.sellers-title-btn{
+		font-size: 1.2rem;
+	}
+}
