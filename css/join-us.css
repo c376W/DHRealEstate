@@ -27,6 +27,13 @@
 	margin:30px;
 }
 
+.title-btn-style{
+	padding:10px 20px;
+	font-size: 1.5rem;
+	background-color: #fcf0d7;
+	border:none;
+}
+
 /*Join Form*/
 
 .contact-us-form{
@@ -85,4 +92,41 @@ textarea.form-el{
 	justify-content: center;
 	background-color: #eba834;
 	border:none;
+}
+
+@media(max-width: 880px){
+	.join-descrip{
+		font-size: 1.1rem;
+		width:600px;
+		line-height: 40px;
+
+	}
+	.form-el{
+		width:400px;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media(max-width: 600px){
+	.join-descrip{
+		font-size: 1.1rem;
+		width:250px;
+		line-height: 20px;
+	}
+	.form-el{
+		width:200px;
+		flex-direction: column;
+		align-items: center;
+	}
+
+}
+@media(max-width: 500px){
+	.join-crop1{
+		display: none;
+	}
+	.join-title{
+		font-size: 1.5rem;
+	}
+	
 }

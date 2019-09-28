@@ -9,6 +9,8 @@
 }
 .contact-title{
 	margin-bottom: 50px;
+	font-size: 3rem;
+	text-align: center;
 }
 .contact-title-descrip{
 	font-size: 1.3rem;
@@ -26,4 +28,29 @@
 	padding:30px;
 	padding-bottom: 10px;
 	margin:30px;
+}
+
+@media(max-width: 880px){
+	.contact-title-descrip{
+		width:100%;
+	}
+	.contact-title{
+		font-size: 1.5rem;
+		display: flex;
+		justify-content: center;
+	}
+	.contact-crop1{
+		display: none;
+	}
+}
+@media(max-width: 600px){
+	.contact-title-descrip{
+		font-size: 1rem;
+		line-height: 20px;
+	}
+}
+@media(max-width: 300px){
+	.content-crop2{
+		display: none;
+	}
 }
