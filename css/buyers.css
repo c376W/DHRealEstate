@@ -144,3 +144,26 @@ body{
 .index-page-contact-section{
 	margin-top: -10px;
 }
+
+
+@media(max-width: 800px){
+	.buyers-page-searchbar-title{
+		font-size: 1.2rem;
+	}
+	.buyers-crop1{
+		display: none;
+	}
+	.buyers-title-big-font{
+		font-size: 1.5rem;
+	}
+}
+
+@media(max-width: 400px){
+	.flip-card-row{
+		flex-direction: column;
+		align-items: center;
+	}
+	.flip-card{
+		width:250px;
+	}
+}

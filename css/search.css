@@ -25,3 +25,12 @@
 .search-bar{
 	margin-bottom: 50px;
 }
+
+@media(max-width: 880px){
+	.search-page-searchbar-title{
+		font-size: 1.5rem;
+	}
+	.index-page-listing-section{
+		display: block;
+	}
+}
