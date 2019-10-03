@@ -36,7 +36,9 @@ ul{
 	align-items: center;
 	margin-top:30px;
 }
+
 .dropdown-spec{
+	color:#fcf0d7;
 	transition: .3s;
 }
 .dropdown-spec:hover{
